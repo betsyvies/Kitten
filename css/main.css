@@ -1,0 +1,94 @@
+/* Style global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/* Styles for container */
+
+.container-cell {
+    width: 100%;
+    max-width: 768px;
+    margin: 0px auto;
+    position: relative;
+}
+
+/* Style for container of image small */
+
+[alt="dawn"] {
+    width: 100%;
+    height: 100vh;
+}
+
+[alt="kitten-large"] {
+    display: inline-block;
+    position: absolute;
+    width: 66%;
+    height: 44%;
+    top: 68%;
+    left: 37%;
+    transform: translateX(-30%) translateY(-30%) 
+}
+
+/* Style for container of image medium and large */
+
+ .container-tablet img  {
+    display: none;
+}
+
+.container-desk img  {
+    display: none;
+}
+
+ /*Segunda parte*/
+
+ @media (min-width:768px) {
+
+     /* Styles for container */
+
+    .container-tablet {
+         width: 100%;
+         margin: 0px auto;
+         position: relative;
+    }
+
+    .container-tablet img{
+        width: 100%;
+        margin: 0px auto;
+        position: relative;
+   }
+
+    /* Style for container of image medium */
+
+    [alt="night"] {
+        display: block;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    /* [alt="kitten-small"] {
+        display: inline-block;
+        position: absolute;
+        width: 66%;
+        height: 44%;
+        top: 68%;
+        left: 37%;
+        transform: translateX(-30%) translateY(-30%);
+    } */
+
+    /* Style for container of image medium and large */
+
+    .container-cell img  {
+        display: none;
+    }
+    
+    .container-desk img  {
+        display: none;
+    }
+ } /*sm*/
+
+ @media (min-width:992px) {
+
+ } /*md */
