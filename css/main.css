@@ -6,16 +6,15 @@
     box-sizing: border-box;
 } 
 
-/* Styles for container */
+/* Styles for container cell */
 
 .container-cell {
     width: 100%;
-    max-width: 768px;
     margin: 0px auto;
     position: relative;
 }
 
-/* Style for container of image small */
+/* Style for image small */
 
 [alt="dawn"] {
     width: 100%;
@@ -32,7 +31,7 @@
     transform: translateX(-30%) translateY(-30%) 
 }
 
-/* Style for container of image medium and large */
+/* Style for images medium and large */
 
  .container-tablet img  {
     display: none;
@@ -42,15 +41,14 @@
     display: none;
 }
 
- /*Segunda parte*/
+ /*Media queries*/
 
  @media (min-width:768px) {
 
-     /* Styles for container */
+     /* Styles for container tablet*/
 
     .container-tablet {
          width: 100%;
-         max-width: 992px;
          margin: 0px auto;
          position: relative;
     }
@@ -59,7 +57,7 @@
         display: block;
    }
 
-    /* Style for container of image medium */
+    /* Style for image medium */
 
     [alt="night"] {
         width: 100%;
@@ -76,7 +74,7 @@
         transform: translateX(-30%) translateY(-30%);
     }
 
-    /* Style for container of image medium and large */
+    /* Style for images small and large */
 
     .container-cell img  {
         display: none;
@@ -89,7 +87,7 @@
 
  @media (min-width:992px) {
      
-     /* Styles for container */
+     /* Styles for container desk */
 
     .container-desk {
         width: 100%;
@@ -101,7 +99,7 @@
        display: block;
   }
 
-   /* Style for container of image medium */
+   /* Style for image large */
 
    [alt="sunny-day"] {
        width: 100%;
@@ -118,7 +116,7 @@
        transform: translateX(-30%) translateY(-30%);
    }
 
-   /* Style for container of image medium and large */
+   /* Style for images small and medium */
 
    .container-cell img  {
        display: none;
